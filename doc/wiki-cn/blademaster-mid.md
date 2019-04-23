@@ -76,7 +76,7 @@ engine.Use(YourMiddleware())
 
 # 局部中间件
 
-先来看一段示例(代码再pkg/net/http/blademaster/middleware/auth模块下)：
+先来看一段示例(代码在pkg/net/http/blademaster/middleware/auth模块下)：
 
 ```go
 func Example() {
